@@ -317,8 +317,27 @@ img {
 //
 // .sidebar
 //
+.detail {
+  position: fixed;
+  right: -100px;
+  transition: right 1s;
+}
+
+.detail:hover {
+  right: 0;
+}
+
+.div1 {
+  background-color: green;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  width: 50px;
+  height: 30px;
+  float: right;
+}
 
 .wrapper-sidebar {
+  float: right;
   width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -326,7 +345,7 @@ img {
 	height: 100%;
 	top: 0;
 	left:0;
-	position: fixed;
+	position: ;
 	z-index: 4;
   border-right: 1px solid $divider-color;
 
@@ -529,7 +548,7 @@ nav {
   position: fixed;
   z-index: 4;
   padding: 60px 20px 0 20px;
-  
+
   &:before{
     content:"目录";
     margin: 0 0 1em 1em;
@@ -678,7 +697,7 @@ nav {
   clear:both;
   width:100%;
   bottom:0;
-  
+
   @include mobile {
     display: none;
   }
@@ -687,7 +706,7 @@ nav {
 
 .wrapper-footer-mobile {
   display: none;
-  
+
   @include mobile {
     display: block;
     width: 100%;
@@ -721,7 +740,7 @@ footer {
       height: 20px;
       width: 20px;
       fill: $base-lighten-color;
-      
+
       &:hover {
         fill: $link-lighten-color;
       }
@@ -745,5 +764,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "gitalk";
-
-
