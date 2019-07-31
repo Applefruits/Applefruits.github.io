@@ -319,7 +319,7 @@ img {
 //
 .detail {
   position: fixed;
-  right: -100px;
+  right: -50%;
   transition: right 1s;
 }
 
@@ -331,7 +331,7 @@ img {
   background-color: green;
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
-  width: 50px;
+  width: 40%;
   height: 30px;
   float: right;
 }
