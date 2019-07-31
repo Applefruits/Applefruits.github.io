@@ -317,24 +317,20 @@ img {
 //
 // .sidebar
 //
-.wrapper-sidebar:hover {
-  left: 30%;
-}
+// .wrapper-sidebar:hover {
+//   left: 30%;
+// }
 .wrapper-sidebar {
-  width: 30%;
+  width: 25%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: $background-color;
 	height: 100%;
 	top: 0;
-	left:-25%;
-	position: fixed;
+	left:0;
+	position: ;
 	z-index: 4;
   border-right: 1px solid $divider-color;
-
-  transition: left 1s;
-  float: left;
-
   @include mobile {
     width: 100%;
     height: auto;
