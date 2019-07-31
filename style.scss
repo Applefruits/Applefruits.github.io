@@ -321,13 +321,13 @@ img {
   left: 30%;
 }
 .wrapper-sidebar {
-  width: -25%;
+  width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: $background-color;
 	height: 100%;
 	top: 0;
-	left:0;
+	left:-25%;
 	position: fixed;
 	z-index: 4;
   border-right: 1px solid $divider-color;
