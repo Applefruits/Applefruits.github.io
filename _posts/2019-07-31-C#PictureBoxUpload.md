@@ -5,7 +5,6 @@ date: 2019-07-31
 Author: Applefruits
 tags: [C#, java,PictureBox]
 comments: true
-toc: true
 ---
 >关于winform上传图片到Java后端，保存到数据库，有多种方法，本文主要介绍利用picturebox控件，点击按钮上传图片，将图片转化为base64格式,以json格式上传到Java后台，再从java端解析，保存到数据库。
 
