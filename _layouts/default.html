@@ -2,10 +2,8 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="detail">
-      <div class="div1">详情</div>
-      {% include nav.html %}
-    </div>
+    {% include nav.html %}
+    
     {% if page.toc==true %}
       <aside class="toc">
         {% include toc.html html=content %}
