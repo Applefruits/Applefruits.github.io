@@ -319,19 +319,19 @@ img {
 //
 .detail {
   position: fixed;
-  right: -50%;
-  transition: right 1s;
+  left: -30%;
+  transition: left 1s;
 }
 
 .detail:hover {
-  right: 0;
+  left: 0;
 }
 
 .div1 {
   background-color: green;
-  border-top-left-radius: 10%;
-  border-bottom-left-radius: 10%;
-  width: 40%;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  width: 50%;
   height: 30px;
   float: right;
 }
