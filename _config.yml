@@ -12,10 +12,10 @@ description: 一个有态度的博客
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: ./images/head.jpg
+avatar: https://raw.githubusercontent.com/Applefruits/Applefruits.github.io/master/images/head.jpg
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: ./images/head.jpg
+favicon: https://raw.githubusercontent.com/Applefruits/Applefruits.github.io/master/images/head.jpg
 
 
 # 菜单中的按钮
@@ -43,7 +43,7 @@ footer-links:
   email: #fromendworld@outlook.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: https://github.com/Applefruits
+  github:
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
