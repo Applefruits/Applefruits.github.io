@@ -3,7 +3,7 @@ layout: post
 title: Websocket+RabbitMQ实现消息发送、接收和消息的延时接收
 date: 2019-08-01
 Author: Applefruits
-tags: [Java,Excel,XSSF,FileDownload,CustomTemplate]
+tags: [Java,Websocket,RabbitMQ,js,Message]
 comments: true
 ---
 >本文主要介绍springboot框架下，使用微服务架构的项目，添加消息发送功能过程中所发现和解决的问题，以及此功能的实现过程。    
