@@ -1,10 +1,10 @@
 ---
 layout: post
 title: java自定义excel,文件下载
-date: 2019-07-31
+date: 2019-08-01
 Author: Applefruits
 tags: [Java,Excel,XSSF,FileDownload,CustomTemplate]
-comments: true
+comments: false
 ---
 >本文主要介绍spring boot环境下，利用Apache POI操作Excel,实现Excel文件的在线下载。
 
