@@ -6,7 +6,7 @@ Author: Applefruits
 tags: [Html,js,LayUi,Canvas]
 comments: true
 ---
->实际项目中，在做用户登陆时，不可避免的一个功能是验证码登陆验证，本文以layui框架为例，介绍纯前端的验证码登陆实现方案，供以后学习参考
+>实际项目中，在做用户登陆时，不可避免的一个功能是验证码登陆验证，本文以layui框架为例，通过使用Canvas,介绍纯前端的验证码登陆实现方案，供以后学习参考
 
 ```
 <!DOCTYPE html>
