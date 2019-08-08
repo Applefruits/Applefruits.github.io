@@ -30,7 +30,7 @@ navigation:
     url: /tags
 
 # 每页的文章数
-paginate: 6
+paginate: 5
 
 # 文章简介的区分标记
 excerpt_separator: <!-- more -->
