@@ -8,9 +8,9 @@ comments: true
 ---
 >本文的背景是，客户要求使用webservice编写后台服务端接口，在不使用Spring框架的前提下，使用原生的JDBC连接数据库，故写了如下一个例子，供以后类似项目使用借鉴。
 
-首先，下载jar包 [mysql-connector-java-5.1.42.jar](/res/mysql-connector-java-5.1.42.jar)
+首先，下载jar包 [mysql-connector-java-5.1.42.jar](/_posts/res/mysql-connector-java-5.1.42.jar)
 
-然后在项目中引入jar包并创建文件：数据库连接文件ConnectionManager；数据库配置文件context.xml。文件目录结构如下：[图 ](/img/projectStucture.png)
+然后在项目中引入jar包并创建文件：数据库连接文件ConnectionManager；数据库配置文件context.xml。文件目录结构如下：![](/_posts/img/projectStucture.png)
 
 ConnectionManager：
 ```
