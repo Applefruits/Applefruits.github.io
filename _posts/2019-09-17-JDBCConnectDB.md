@@ -10,7 +10,7 @@ comments: true
 
 首先，下载jar包 [mysql-connector-java-5.1.42.jar](/res/mysql-connector-java-5.1.42.jar)
 
-然后在项目中引入jar包并创建文件：数据库连接文件ConnectionManager；数据库配置文件context.xml。文件目录结构如下图：[](/img/projectStucture.png)
+然后在项目中引入jar包并创建文件：数据库连接文件ConnectionManager；数据库配置文件context.xml。文件目录结构如下：[图](/img/projectStucture.png)
 
 ConnectionManager：
 ```
