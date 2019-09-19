@@ -39,8 +39,9 @@ comments: true
 1. lunix服务器安装Tomcat，可以找网上教程
 2. 在tomcat的webapps目录下新建test文件夹作为本项目的部署路径
 3. 复制发布成功的WEB-INF文件夹到test目录下
-4. 启动tomcat，放开相应端口权限，在浏览器输入http://114.215.24.88:8088/WS/servlet/AxisServlet即可查看项目部署内容。
----
+4. 启动tomcat，放开相应端口权限，在浏览器输入http://114.215.24.88:8088/WS/servlet/AxisServlet 即可查看项目部署内容。
+
+------
 注意：
 1. 修改conf下的context.xml文件，设置链接数据库信息（注意使用内网IP）
 2. conf下的server.xml文件可以做限制IP等操作
